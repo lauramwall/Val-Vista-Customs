@@ -1,0 +1,346 @@
+@import url('https://fonts.googleapis.com/css?family=Fugaz+One|Open+Sans');
+
+* {
+    font-family: 'Open Sans', sans-serif;
+}
+
+::-moz-selection { /* Code for Firefox */
+    color: #000923;
+    background: #FFF;
+}
+
+::selection {
+    color: #000923;
+    background: #FFF;
+}
+
+.phone_number {
+    font-size: 16px;
+    padding-top: 5px;
+    color: #FFF;
+    float: right;
+}
+
+#telephone:hover {
+    border-bottom: 2px solid #FFF;
+}
+
+a .fa-arrow-down {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    margin: 3rem;
+    color: #FFF;
+    font-size: 34px;
+    transition: 0.3s;
+}
+
+a .fa-arrow-down:hover {
+    color: lightgrey;
+}
+
+#main_title a {
+    font-family: 'Fugaz One', cursive;
+    font-size: 3rem;
+    color: #e02828;
+    transition: 0.3s;
+    text-shadow: 4px 1px 20px #000923;
+}
+
+#main_title a:hover {
+    cursor: pointer;
+}
+
+.title {
+    color: #FFF;
+}
+
+.subtitle {
+    color: lightgrey;
+    font-size: 15px;
+    font-style: italic;
+}
+
+.section1 {
+    background-image: url(img/camaro.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom;
+    height: 650px;
+    position: relative;
+}
+
+.section2 {
+    background-color: #000923;
+    height: auto;
+}
+
+.section2 .title {
+    font-family: 'Fugaz One', cursive!important;
+    margin-top: 1rem;
+}
+
+.section2 .container {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+.section2 p {
+    color: #FFF;
+}
+
+.section2 .container .divider {
+    height: 5px;
+    width: 50%;
+    background-color: #e02828;
+    text-align: center;
+    margin-top: 5rem;
+    margin-left: 25%;
+}
+
+.section2 .columns {
+    color: #FFF;
+    margin-top: 5rem;
+    text-align: center;
+    margin-bottom: 5rem;
+}
+
+.section2 .columns a {
+    color: #FFF;
+    transition: 0.3s;
+    padding-bottom: 5px;
+}
+
+.section2 .columns a:hover {
+    border-bottom: 2px solid lightgrey;
+    color: lightgrey;
+    cursor: pointer;
+}
+    
+.fa-arrow-right {
+    color: #e02828;
+    margin-left: 5px;
+}
+
+.services_title {
+    padding-top: 80px;
+    text-align: center;
+}
+
+.section3 {
+    color: #000923;
+}
+
+.section3 .title {
+    font-family: 'Fugaz One', cursive!important;
+    color: #000923;
+}
+
+.section3 .container {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+.section3 .showcase_images {
+    margin-top: 2rem;
+}
+
+.section3 .showcase_images img {
+    border-radius: 4px;
+}
+
+.section4 {
+    color: #FFF;
+    background-color: #e02828;
+    overflow: hidden;
+}
+
+.section4 .container {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+.section4 .container .divider {
+    height: 5px;
+    width: 50%;
+    background-color: #000923;
+    text-align: center;
+    margin-top: 5rem;
+    margin-left: 25%;
+}
+
+.section4 .title {
+    font-family: 'Fugaz One', cursive!important;
+    color: #FFF;
+}
+
+.section4 .columns {
+    margin-top: 96px;
+}
+
+.section4 .columns .card {
+    border-radius: 10px;
+    border: 5px solid #000923;
+    background-color: #000923;
+    color: #FFF;
+}
+
+.section4 .columns .card .title {
+    overflow-y: hidden;
+}
+
+.section4 .columns .card .bold {
+    font-weight: 900;
+    color: #FFF;
+}
+
+.fa-smile {
+    color: #e02828;
+    font-size: 45px;
+}
+
+.fa-grin-beam {
+    color: #e02828;
+    font-size: 45px;
+}
+
+.fa-grin-alt {
+    color: #e02828;
+    font-size: 45px;
+}
+
+.fa-grin-wink {
+    color: #e02828;
+    font-size: 45px;
+}
+
+.fa-grin-tongue {
+    color: #e02828;
+    font-size: 45px;
+}
+
+.fa-smile-beam {
+    color: #e02828;
+    font-size: 45px;
+}
+
+.section5 {
+    color: #000923;
+    background-color: #FFF;
+}
+
+.section5 .container {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+.section5 .container .title {
+    color: #000923;
+    font-family: 'Fugaz One', cursive;
+}
+
+.section5 .container #call_us {
+    color: #000923;
+    text-align: center;
+    margin-top: 96px;
+    line-height: 41px;
+}
+
+.section5 .container a {
+    color: #e02828;
+    font-family: 'Fugaz One', cursive;
+}
+
+.section5 .container a:hover {
+    cursor: default;
+}
+
+
+/* Footer */
+
+.footer {
+    background-color: #000923;
+    color: #FFF;
+    font-size: 14px;
+}
+
+.footer_content {
+     float: right;
+}
+
+.footer .menu_list {
+    color: #FFF;
+    margin-left: 3rem;
+    margin-right: 3rem;
+    font-weight: 900;
+    margin-bottom: 3.5rem;
+}
+
+.footer .menu_list p {
+    cursor: pointer;
+}
+
+.fa-google-plus-g {
+    font-size: 20px;
+    color: #e02828;
+    cursor: pointer;
+}
+
+.fa-yelp {
+    font-size: 20px;
+    margin-left: 10px;
+    color: #e02828;
+    cursor: pointer;
+}
+
+.fa-facebook-f {
+    font-size: 20px;
+    margin-left: 13px;
+    color: #e02828;
+    cursor: pointer;
+}
+
+.footer_title {
+    text-decoration: none!important;
+    color: #e02828!important;
+    font-family: 'Fugaz One', cursive;
+    font-size: 44px;
+}
+
+.fa-angle-right {
+    color: #e02828;
+    margin-right: 5px;
+}
+
+.footer a {
+    color: #FFF;
+    font-weight: 900;
+    text-decoration: underline;
+}
+
+.footer a:hover {
+    text-decoration: underline;
+    text-decoration-color: #e02828;
+}
+
+/* Responsive */
+
+@media (max-width: 510px) {
+    .footer_title {
+         font-size: 27px;
+    }
+    #call_us {
+        font-size: 27px;
+        line-height: 28px;
+    }
+}
+
+@media (max-width: 470px) {
+    .icons_list {
+        display: none;
+    }
+    .footer_content {
+        float: right;
+        align-content: center;
+    }
+}
